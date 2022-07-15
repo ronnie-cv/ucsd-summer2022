@@ -1,7 +1,5 @@
 ---
 title: "SARS-CoV-2 Data Analysis"
-output:html_document
-df_print: paged
 ---
 
 Project Progress: Week of 7/10  
