@@ -2,9 +2,7 @@
 title: "SARS-CoV-2 Data Analysis"
 ---
 
-Project Progress: Week of 7/10  
-Ronnie Volman  
-Turakhia Lab, UCSD
+Project Progress: Week of 7/10   
 
 ```{r}
 #Package installation
@@ -47,7 +45,5 @@ final_filter = final_filter %>%
 #strsplit("A.11", split = ".", fixed = T)[[1]][1]  
 
 final_result = final_result %>% dplyr::mutate(clade_letter = strsplit(pangolin_lineage, split = ".", fixed = T)[[1]][1]) #Appended column with clade letter.
-
-unique(final_result$clade_letter)
 
 ```
