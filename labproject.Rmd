@@ -1,8 +1,6 @@
 ---
 title: "SARS-CoV-2 Data Analysis"
-output:
-  pdf_document: default
-  html_document: default
+output:html_document
 df_print: paged
 ---
 
